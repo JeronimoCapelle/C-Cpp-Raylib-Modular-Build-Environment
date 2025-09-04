@@ -1,0 +1,41 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build and Run",
+            "type": "shell",
+            "group": "build",
+            "command": "make run",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "Build",
+            "type": "shell",
+            "group": "build",
+            "command": "make all",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "Clean",
+            "type": "shell",
+            "group": "build",
+            "command": "make clean",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "Build debug",
+            "type": "shell",
+            "group": "build",
+            "command": "make BUILD_TYPE=debug",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
